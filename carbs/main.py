@@ -2,7 +2,7 @@ from code import interact
 
 
 from carbs import nutritions
-
+# This welcoming message contains the app description for the user
 def Welcome_msg():
     interact= ''' ___
                           _/`.-'`.
@@ -42,6 +42,7 @@ dooooooooooooooooooooooooo&@@oooooob
 
     print(interact)
 def looping(res):
+      # Here we are looping through every single attribute of the object returned by the API depending on the users choice 
     while res != "quit":
         
         option= input("press 1 to show the calories of each plate  \n press 2 to show the protein of each plate  \n press 3 to show the fat of each plate  \n press 4 to show the carbs of each plate \n \"quit\" to exit \n > ")
@@ -70,7 +71,7 @@ def looping(res):
 
 
 def user_input():
-   
+   # user input for the min and max carbs, if the user inputs something else than values that are not in the (0-119) range we raise a warning message
     print("please enter the Minimum and the Maximum carbs\n ** NOTE = > The Minimum value should be between (0-118)\n ** NOTE = > The Maximum value should be between (1-119)")
     print(" ** NOTE = >  Maximum value > Minimum value  ")
     try : 
