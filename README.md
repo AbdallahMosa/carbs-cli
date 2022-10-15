@@ -1,6 +1,6 @@
 
 # LAB - Class 6
-## Project: OPP
+## Project: OPP Carbs-cli
 
 ### Author: AbdallahMosa &[Omar](github.com/dee-desu)
 ## [Pull Req](https://github.com/AbdallahMosa/carbs-cli/pull/1)
