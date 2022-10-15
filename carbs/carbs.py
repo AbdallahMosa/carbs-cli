@@ -6,7 +6,9 @@ import requests
 from dotenv import load_dotenv
 
 class Nutritions:
+    
     def __init__(self):
+        # the constructor that contains the main variables
         self.min_carb= None
         self.max_carb= None
         self.r = None
@@ -14,6 +16,7 @@ class Nutritions:
         self.api_key =  os.getenv("API_KEY")
     
     def set_carb(self, min, max):
+         # function that has min and max attributes that raises a warning if the min> max
         if min> max:
             
             raise ValueError("it can not be Minimum value > Maximum value")
@@ -24,15 +27,18 @@ class Nutritions:
    
 
     def get_data(self):
+         # The API requests link that takes the api_key, min_carb, and max_carb as parameters
         self.url = f'https://api.spoonacular.com/recipes/findByNutrients?apiKey={self.api_key}&minCarbs={self.min_carb}&maxCarbs={self.max_carb}'
         self.r = requests.get(self.url).json()
         return requests.get(self.url).json()
     
-# n
+
     def __str__(self):
         return "welcome from Nutritions class"    
     def __repr__(self) :
         return "Nutritions class"
+        
+    # Looping the each response attribute in each function and store it in a new variable  
     def get_calories(self):
         new_calories=[]
         for i in self.r:
