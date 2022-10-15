@@ -4,6 +4,8 @@
 
 ### Author: AbdallahMosa &[Omar](github.com/dee-desu)
 ## [Pull Req](https://github.com/AbdallahMosa/carbs-cli/pull/1)
+## [Pull Req 2 ](https://github.com/AbdallahMosa/carbs-cli/pull/2)
+
 #### How to initialize/run your application (where applicable)
 - `python carbs/carbs.py`
 
