@@ -1,7 +1,7 @@
 
 # LAB - Class 6
 ## Project: OPP Carbs-cli
-
+  - Welcome to the carbs viewer this app helps you to find many delicious plates with nutrition facts depending on your range of minimum and maximum carbs consumption
 ### Author: AbdallahMosa &[Omar](github.com/dee-desu)
 ## [Pull Req](https://github.com/AbdallahMosa/carbs-cli/pull/1)
 ## [Pull Req 2 ](https://github.com/AbdallahMosa/carbs-cli/pull/2)
