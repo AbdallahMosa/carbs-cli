@@ -28,7 +28,7 @@ class Nutritions:
         self.r = requests.get(self.url).json()
         return requests.get(self.url).json()
     
-
+# n
     def __str__(self):
         return "welcome from Nutritions class"    
     def __repr__(self) :
