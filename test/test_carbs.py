@@ -39,7 +39,7 @@ def test_response():
 def test_api_key():
     api_key = Nutritions()
     actual = api_key.api_key
-    expected = "880871c7c5b54ec9b971fd6a153860b1" 
+    expected = "889e7e736f474d9a98442f1a93990afa" 
     assert actual == expected  
 def test_min_and_max():
     
@@ -51,5 +51,5 @@ def test_url():
     url.set_carb(100,119)
     url.get_data()
     actual = url.url
-    expected ="https://api.spoonacular.com/recipes/findByNutrients?apiKey=880871c7c5b54ec9b971fd6a153860b1&minCarbs=100&maxCarbs=119"
+    expected ="https://api.spoonacular.com/recipes/findByNutrients?apiKey=889e7e736f474d9a98442f1a93990afa&minCarbs=100&maxCarbs=119"
     assert actual == expected 
